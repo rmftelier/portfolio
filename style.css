@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   color: #fff;
-  padding: 10px 30px
+  padding: 10px 30px;
 }
 
 #menuNavegacao {
@@ -35,10 +35,8 @@ header {
 }
 
 /* section */
-section {
+.article_container {
   background-color: #cfa6bb;
-
-
   padding: 20px 40px;
   justify-content: center;
 }
@@ -63,12 +61,13 @@ section h3 {
   font-size: 40px;
 }
 
-
-
 section p {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   text-align: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 8px;
 }
 
 #foto_perfil {
@@ -81,15 +80,33 @@ section p {
 }
 
 /* section : sub-section */
+
+
 #formacao {
   background-color: #ae9cc4;
+  padding: 20px;
 }
 
+
+#formacao h3,
+#portfolio h3 {
+  text-align: start;
+}
 
 /* section : meus-projetos */
-#projetos {
+#portfolio {
   background-color: #8d7cad;
+  padding: 20px;
 }
+
+#portfolio ul {
+  display: flex;
+  padding: 17px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
 
 /* footer */
 footer {
@@ -97,7 +114,7 @@ footer {
   height: 100%;
 }
 
-footer ul{
+footer ul {
   padding: 50px;
   list-style: none;
 }
