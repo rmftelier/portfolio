@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  background-color: #b4446c;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 10px 30px
+}
+
+#menuNavegacao {
+  display: flex;
+  padding: 10px 20px;
+  gap: 20px;
+  list-style: none;
+}
+
+#menuNavegacao li {
+  margin-right: auto;
+  /* Isso empurra o menu para a direita */
+}
+
+#menuNavegacao li a {
+  padding: 8px 14px;
+  border-radius: 25px;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+/* section */
+section {
+  background-color: #cfa6bb;
+
+
+  padding: 20px 40px;
+  justify-content: center;
+}
+
+section h1,
+h2,
+h3,
+h4 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 50px;
+}
+
+section h2 {
+  font-size: 25px;
+}
+
+section h3 {
+  font-size: 40px;
+}
+
+
+
+section p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+#foto_perfil {
+  width: 350px;
+  height: 350px;
+  margin: 10px auto;
+  border-radius: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* section : sub-section */
+#formacao {
+  background-color: #ae9cc4;
+}
+
+
+/* section : meus-projetos */
+#projetos {
+  background-color: #8d7cad;
+}
+
+/* footer */
+footer {
+  background-color: #7ececa;
+  height: 100%;
+}
+
+footer ul{
+  padding: 50px;
+  list-style: none;
+}
+
+footer li a {
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+footer i {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
