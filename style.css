@@ -178,3 +178,56 @@ footer {
   font-style: italic;
 
 }
+
+/* Estilos para telas menores (largura igual ou menor a 768px) */
+@media (max-width: 768px) {
+  header {
+    height: 80px;
+    padding: 0 10px;
+  }
+
+
+  #menuNavegacao {
+    gap: 15px;
+
+  }
+
+  #menuNavegacao li a {
+    font-size: 18px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  section {
+    padding: 30px 20px;
+    width: auto;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+  }
+
+  .article_container p {
+    font-size: 18px;
+  }
+
+  section ul {
+    max-width: 100%;
+  }
+
+  #foto_perfil {
+    width: 200px;
+    height: 200px;
+  }
+}
