@@ -51,7 +51,7 @@ main a {
 }
 
 main p {
-   margin-top: 10px;
+  margin-top: 10px;
 }
 
 section {
@@ -155,4 +155,26 @@ footer {
 
 #contato i {
   margin-bottom: 5px;
+}
+
+.formatando {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.formatando a {
+  color: rgb(139, 67, 111);
+}
+
+.data {
+  color: rgb(139, 67, 111);
+  font-style: italic;
+}
+
+.data a {
+  color: rgb(139, 67, 111);
+  font-style: italic;
+
 }
